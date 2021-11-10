@@ -35,10 +35,13 @@ const (
 	IOST = ETHToken + 1
 	USDC = ETHToken + 2
 	AAVE = ETHToken + 3
+	ADA  = ETHToken + 4
 )
 
 var coinTypes = map[uint32]uint32{
 	USDT: BTC,
 	IOST: ETH,
 	USDC: ETH,
+	AAVE: ETH,
+	ADA:  ETH,
 }
